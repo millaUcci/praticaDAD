@@ -5,7 +5,7 @@ import FormularioProduto from "../FormularioProduto/FormularioProduto";
 // import ItemEstoque from "../ItemEstoque/ItemEstoque";
 
 export default function App() {
-  const [itens, setItens] = useState([]);
+  const [itens, setItem] = useState([]);
 
   const addItem = (nome, qtEstoque, vlCompra, vlVenda) => {
     const newItem = {
